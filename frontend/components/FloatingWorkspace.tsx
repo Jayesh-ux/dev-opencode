@@ -102,44 +102,46 @@ export default function FloatingWorkspace({ sessionId }: { sessionId: string }) 
       {/* Floating elements container — pointer-events-none so clicks pass through to terminal */}
       <div className="fixed inset-0 z-50 pointer-events-none">
         {/* Orb — bottom right */}
-        <motion.div
-          drag
-          dragMomentum
-          dragElastic={0.1}
-          ref={orbRef}
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{
-            scale: orbActive ? 1 : 0.9,
-            opacity: orbActive ? 1 : 0.4,
-          }}
-          transition={{ duration: 0.4 }}
-          className="absolute right-6 bottom-6 pointer-events-auto cursor-grab active:cursor-grabbing z-50"
-          onClick={() => setPanelOpen(!isPanelOpen)}
-        >
-          <div
-            ref={glowRef}
-            className="relative h-14 w-14 rounded-full flex items-center justify-center"
-            style={{
-              background: "radial-gradient(circle at 35% 25%, #818cf8, #4f46e5 50%, #6d28d9)",
-              boxShadow: orbActive
-                ? "0 0 32px rgba(99,102,241,0.7), 0 0 64px rgba(99,102,241,0.3)"
-                : "0 0 16px rgba(99,102,241,0.35)",
+        {!isPanelOpen && (
+          <motion.div
+            drag
+            dragMomentum
+            dragElastic={0.1}
+            ref={orbRef}
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{
+              scale: orbActive ? 1 : 0.9,
+              opacity: orbActive ? 1 : 0.4,
             }}
+            transition={{ duration: 0.4 }}
+            className="absolute right-6 bottom-6 pointer-events-auto cursor-grab active:cursor-grabbing z-50"
+            onClick={() => setPanelOpen(!isPanelOpen)}
           >
-            <div className="absolute inset-0 rounded-full bg-blue-400/20 animate-pulse" />
-            {mode === "live" && orbActive ? (
-              <div className="flex items-end gap-0.5 relative z-10 h-5">
-                <span className="w-0.5 bg-white rounded-full animate-pulse h-3" />
-                <span className="w-0.5 bg-white rounded-full animate-pulse h-5" />
-                <span className="w-0.5 bg-white rounded-full animate-pulse h-4" />
-                <span className="w-0.5 bg-white rounded-full animate-pulse h-5" />
-                <span className="w-0.5 bg-white rounded-full animate-pulse h-3" />
-              </div>
-            ) : (
-              <Mic size={20} className="text-white relative z-10" />
-            )}
-          </div>
-        </motion.div>
+            <div
+              ref={glowRef}
+              className="relative h-14 w-14 rounded-full flex items-center justify-center"
+              style={{
+                background: "radial-gradient(circle at 35% 25%, #818cf8, #4f46e5 50%, #6d28d9)",
+                boxShadow: orbActive
+                  ? "0 0 32px rgba(99,102,241,0.7), 0 0 64px rgba(99,102,241,0.3)"
+                  : "0 0 16px rgba(99,102,241,0.35)",
+              }}
+            >
+              <div className="absolute inset-0 rounded-full bg-blue-400/20 animate-pulse" />
+              {mode === "live" && orbActive ? (
+                <div className="flex items-end gap-0.5 relative z-10 h-5">
+                  <span className="w-0.5 bg-white rounded-full animate-pulse h-3" />
+                  <span className="w-0.5 bg-white rounded-full animate-pulse h-5" />
+                  <span className="w-0.5 bg-white rounded-full animate-pulse h-4" />
+                  <span className="w-0.5 bg-white rounded-full animate-pulse h-5" />
+                  <span className="w-0.5 bg-white rounded-full animate-pulse h-3" />
+                </div>
+              ) : (
+                <Mic size={20} className="text-white relative z-10" />
+              )}
+            </div>
+          </motion.div>
+        )}
 
       </div>
     </>

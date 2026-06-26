@@ -256,6 +256,8 @@ async def live_session(ws: WebSocket):
                     await live.send_audio(data.get("data", ""), mime)
                 elif msg_type == "text":
                     await live.send_text(data.get("payload", ""))
+                elif msg_type == "interrupt":
+                    logger.info("live client_to_gemini: client interrupted playback")
                 elif msg_type == "disconnect":
                     break
         except WebSocketDisconnect:
@@ -424,7 +426,7 @@ async def api_security_scan(path: str | None = None):
 async def device_log_stream(ws: WebSocket):
     await ws.accept()
     session_id = ws.query_params.get("session_id") or str(uuid.uuid4())[:8]
-    pool.add_opencode(session_id, ws)
+    logger.info("Device WS connected: %s", session_id)
     sessions.ensure(session_id)
 
     await ws.send_json({
@@ -482,4 +484,4 @@ async def device_log_stream(ws: WebSocket):
                 await logcat_gen.aclose()
             except Exception:
                 pass
-        pool.remove_opencode(session_id)
+        logger.info("Device WS cleaned up: %s", session_id)
