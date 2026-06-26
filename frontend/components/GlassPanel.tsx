@@ -424,6 +424,15 @@ export default function GlassPanel({ sessionId, send, readyState, setWsHandler }
             </div>
             <div className="flex items-center gap-1 ml-auto">
               <button
+                onClick={() => {
+                  localStorage.removeItem("ai_session_id");
+                  window.location.reload();
+                }}
+                className="px-2.5 py-1 text-[10px] font-mono text-white/40 hover:text-white/70 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 transition-colors mr-2 shrink-0"
+              >
+                new session
+              </button>
+              <button
                 onClick={() => setMode("chat")}
                 className={`px-3 py-1 text-[11px] font-medium rounded-full transition-colors ${
                   mode === "chat"
