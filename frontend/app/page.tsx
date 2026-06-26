@@ -27,6 +27,15 @@ export default function Home() {
       <div className="absolute inset-0 z-10 pointer-events-none">
         <FloatingWorkspace sessionId={sessionId} />
       </div>
+      <button
+        onClick={() => {
+          localStorage.removeItem("ai_session_id");
+          window.location.reload();
+        }}
+        className="fixed top-3 right-16 z-50 pointer-events-auto bg-white/5 border border-white/10 text-white/40 text-[10px] font-mono px-2 py-1 rounded-md hover:bg-white/10"
+      >
+        new session
+      </button>
     </main>
   );
 }
