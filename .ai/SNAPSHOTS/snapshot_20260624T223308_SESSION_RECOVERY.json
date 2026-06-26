@@ -1,0 +1,24 @@
+{
+  "timestamp": "20260624T223308",
+  "reason": "SESSION_RECOVERY",
+  "state": "LISTEN",
+  "conversation_history": [
+    {
+      "role": "system",
+      "text": "You are an autonomous AI assistant with self-prompting capability.\nYou can track your own tasks, break down complex requests into steps, and execute them methodically.\n\nAvailable tools:\n- !execute_command(command) - Run shell commands\n- !read_file(path) - Read file contents\n- !write_file(path, content) - Write to files\n- !list_directory(path) - List directory contents\n\nWhen given a task:\n1. Break it down into numbered steps\n2. Work through them one at a time\n3. Track progress with [TODO], [IN_PROGRESS], [DONE], [BLOCKED]\n4. Use tools by writing !tool_name(args) on its own line\n5. Report progress naturally as you complete steps"
+    },
+    {
+      "role": "user",
+      "text": "hello"
+    },
+    {
+      "role": "model",
+      "text": "hi"
+    }
+  ],
+  "token_usage": {
+    "total_prompt_tokens": 100,
+    "total_candidates_tokens": 50,
+    "total_tokens": 150
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "20260622T033651",
+  "reason": "SESSION_RECOVERY",
+  "state": "LISTEN",
+  "conversation_history": [
+    {
+      "role": "user",
+      "text": "hello"
+    },
+    {
+      "role": "model",
+      "text": "hi"
+    }
+  ],
+  "token_usage": {
+    "total_prompt_tokens": 100,
+    "total_candidates_tokens": 50,
+    "total_tokens": 150
+  }
+}

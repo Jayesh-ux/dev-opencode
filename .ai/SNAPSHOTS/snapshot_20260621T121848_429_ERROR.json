@@ -1,0 +1,11 @@
+{
+  "timestamp": "20260621T121848",
+  "reason": "429_ERROR",
+  "state": "THINK",
+  "conversation_history": [],
+  "token_usage": {
+    "total_prompt_tokens": 0,
+    "total_candidates_tokens": 0,
+    "total_tokens": 0
+  }
+}

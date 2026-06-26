@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: rgba(13, 13, 17, 0.4);
+  --color-panel: rgba(26, 26, 37, 0.5);
+  --color-panel-hover: rgba(34, 34, 47, 0.6);
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-hover: rgba(255, 255, 255, 0.14);
+  --color-accent: #8b5cf6;
+  --color-accent-hover: #a78bfa;
+  --color-accent-subtle: rgba(139, 92, 246, 0.15);
+  --color-text-primary: #e8e8ed;
+  --color-text-secondary: #9898a8;
+  --color-text-muted: #686878;
+  --color-user-bubble: rgba(45, 45, 74, 0.7);
+  --color-assistant-bubble: rgba(30, 30, 48, 0.7);
+  --color-success: #22c55e;
+  --color-warning: #eab308;
+  --color-danger: #ef4444;
+  --color-header-bg: rgba(13, 13, 20, 0.6);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-border);
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-border-hover);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  color: var(--color-text-primary);
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#__next {
+  background: transparent !important;
+}
+
+.glass-panel {
+  background-color: rgba(13, 13, 17, 0.4) !important;
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-dot {
+  0%, 80%, 100% { transform: scale(0.6); opacity: 0.3; }
+  40% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.25s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.2s ease-out;
+}
+
+.typing-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-text-secondary);
+  animation: pulse-dot 1.4s infinite ease-in-out both;
+}
+
+.typing-dot:nth-child(1) { animation-delay: -0.32s; }
+.typing-dot:nth-child(2) { animation-delay: -0.16s; }
+.typing-dot:nth-child(3) { animation-delay: 0s; }

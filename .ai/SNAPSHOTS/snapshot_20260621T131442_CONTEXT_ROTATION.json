@@ -1,0 +1,172 @@
+{
+  "timestamp": "20260621T131442",
+  "reason": "CONTEXT_ROTATION",
+  "state": "ROTATION",
+  "conversation_history": [
+    {
+      "role": "user",
+      "text": "Query number 0"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 0 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 1"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 1 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 2"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 2 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 3"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 3 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 4"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 4 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 5"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 5 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 6"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 6 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 7"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 7 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 8"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 8 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 9"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 9 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 10"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 10 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 11"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 11 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 12"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 12 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 13"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 13 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 14"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 14 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 15"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 15 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 16"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 16 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 17"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 17 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 18"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 18 with extra padding"
+    },
+    {
+      "role": "user",
+      "text": "Query number 19"
+    },
+    {
+      "role": "model",
+      "text": "Response for query 19 with extra padding"
+    }
+  ],
+  "token_usage": {
+    "total_prompt_tokens": 0,
+    "total_candidates_tokens": 0,
+    "total_tokens": 800000
+  }
+}

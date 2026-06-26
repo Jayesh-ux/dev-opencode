@@ -1,0 +1,11 @@
+{
+  "timestamp": "20260621T121847",
+  "reason": "SESSION_RECOVERY",
+  "state": "LISTEN",
+  "conversation_history": [],
+  "token_usage": {
+    "total_prompt_tokens": 0,
+    "total_candidates_tokens": 0,
+    "total_tokens": 0
+  }
+}

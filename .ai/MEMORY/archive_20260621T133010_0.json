@@ -1,0 +1,121 @@
+{
+  "id": "archive_20260621T133010_0",
+  "summary": "28 messages covering: general conversation. 0 tool calls executed. Archived for full recovery.",
+  "message_count": 28,
+  "token_count": 230,
+  "timestamp": "20260621T133010",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Q0"
+    },
+    {
+      "role": "model",
+      "text": "A0"
+    },
+    {
+      "role": "user",
+      "text": "Q1"
+    },
+    {
+      "role": "model",
+      "text": "A1"
+    },
+    {
+      "role": "user",
+      "text": "Q2"
+    },
+    {
+      "role": "model",
+      "text": "A2"
+    },
+    {
+      "role": "user",
+      "text": "Q3"
+    },
+    {
+      "role": "model",
+      "text": "A3"
+    },
+    {
+      "role": "user",
+      "text": "Q4"
+    },
+    {
+      "role": "model",
+      "text": "A4"
+    },
+    {
+      "role": "user",
+      "text": "Q5"
+    },
+    {
+      "role": "model",
+      "text": "A5"
+    },
+    {
+      "role": "user",
+      "text": "Q6"
+    },
+    {
+      "role": "model",
+      "text": "A6"
+    },
+    {
+      "role": "user",
+      "text": "Q7"
+    },
+    {
+      "role": "model",
+      "text": "A7"
+    },
+    {
+      "role": "user",
+      "text": "Q8"
+    },
+    {
+      "role": "model",
+      "text": "A8"
+    },
+    {
+      "role": "user",
+      "text": "Q9"
+    },
+    {
+      "role": "model",
+      "text": "A9"
+    },
+    {
+      "role": "user",
+      "text": "Q10"
+    },
+    {
+      "role": "model",
+      "text": "A10"
+    },
+    {
+      "role": "user",
+      "text": "Q11"
+    },
+    {
+      "role": "model",
+      "text": "A11"
+    },
+    {
+      "role": "user",
+      "text": "Q12"
+    },
+    {
+      "role": "model",
+      "text": "A12"
+    },
+    {
+      "role": "user",
+      "text": "Q13"
+    },
+    {
+      "role": "model",
+      "text": "A13"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "timestamp": "20260621T132649",
+  "reason": "SESSION_RECOVERY",
+  "state": "LISTEN",
+  "conversation_history": [
+    {
+      "role": "system",
+      "text": "[Context Summary from previous 28 messages]: 28 messages covering: general conversation. 0 tool calls executed. Archived for full recovery."
+    },
+    {
+      "role": "user",
+      "text": "Q14"
+    },
+    {
+      "role": "model",
+      "text": "A14"
+    },
+    {
+      "role": "user",
+      "text": "Q15"
+    },
+    {
+      "role": "model",
+      "text": "A15"
+    },
+    {
+      "role": "user",
+      "text": "Q16"
+    },
+    {
+      "role": "model",
+      "text": "A16"
+    },
+    {
+      "role": "user",
+      "text": "Q17"
+    },
+    {
+      "role": "model",
+      "text": "A17"
+    },
+    {
+      "role": "user",
+      "text": "Q18"
+    },
+    {
+      "role": "model",
+      "text": "A18"
+    },
+    {
+      "role": "user",
+      "text": "Q19"
+    },
+    {
+      "role": "model",
+      "text": "A19"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q0"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A0"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q1"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A1"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q2"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A2"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q3"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A3"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q4"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A4"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q5"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A5"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q6"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A6"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q7"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A7"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q8"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A8"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q9"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A9"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q10"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A10"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q11"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A11"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q12"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A12"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q13"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A13"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q14"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A14"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q15"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A15"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q16"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A16"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q17"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A17"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q18"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A18"
+    },
+    {
+      "role": "user",
+      "text": "Second batch Q19"
+    },
+    {
+      "role": "model",
+      "text": "Second batch A19"
+    }
+  ],
+  "token_usage": {
+    "total_prompt_tokens": 35,
+    "total_candidates_tokens": 0,
+    "total_tokens": 800000
+  }
+}

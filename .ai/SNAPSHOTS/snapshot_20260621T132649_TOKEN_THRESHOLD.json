@@ -1,0 +1,20 @@
+{
+  "timestamp": "20260621T132649",
+  "reason": "TOKEN_THRESHOLD",
+  "state": "TEST",
+  "conversation_history": [
+    {
+      "role": "user",
+      "text": "hello"
+    },
+    {
+      "role": "model",
+      "text": "hi"
+    }
+  ],
+  "token_usage": {
+    "total_prompt_tokens": 100,
+    "total_candidates_tokens": 50,
+    "total_tokens": 150
+  }
+}

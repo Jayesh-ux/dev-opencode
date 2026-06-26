@@ -1,0 +1,6 @@
+fastapi==0.115.0
+uvicorn
+python-multipart
+requests
+python-dotenv
+gtts==2.5.4

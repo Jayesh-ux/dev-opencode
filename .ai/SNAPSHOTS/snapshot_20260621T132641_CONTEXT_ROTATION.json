@@ -1,0 +1,172 @@
+{
+  "timestamp": "20260621T132641",
+  "reason": "CONTEXT_ROTATION",
+  "state": "ROTATION",
+  "conversation_history": [
+    {
+      "role": "user",
+      "text": "Q0"
+    },
+    {
+      "role": "model",
+      "text": "A0"
+    },
+    {
+      "role": "user",
+      "text": "Q1"
+    },
+    {
+      "role": "model",
+      "text": "A1"
+    },
+    {
+      "role": "user",
+      "text": "Q2"
+    },
+    {
+      "role": "model",
+      "text": "A2"
+    },
+    {
+      "role": "user",
+      "text": "Q3"
+    },
+    {
+      "role": "model",
+      "text": "A3"
+    },
+    {
+      "role": "user",
+      "text": "Q4"
+    },
+    {
+      "role": "model",
+      "text": "A4"
+    },
+    {
+      "role": "user",
+      "text": "Q5"
+    },
+    {
+      "role": "model",
+      "text": "A5"
+    },
+    {
+      "role": "user",
+      "text": "Q6"
+    },
+    {
+      "role": "model",
+      "text": "A6"
+    },
+    {
+      "role": "user",
+      "text": "Q7"
+    },
+    {
+      "role": "model",
+      "text": "A7"
+    },
+    {
+      "role": "user",
+      "text": "Q8"
+    },
+    {
+      "role": "model",
+      "text": "A8"
+    },
+    {
+      "role": "user",
+      "text": "Q9"
+    },
+    {
+      "role": "model",
+      "text": "A9"
+    },
+    {
+      "role": "user",
+      "text": "Q10"
+    },
+    {
+      "role": "model",
+      "text": "A10"
+    },
+    {
+      "role": "user",
+      "text": "Q11"
+    },
+    {
+      "role": "model",
+      "text": "A11"
+    },
+    {
+      "role": "user",
+      "text": "Q12"
+    },
+    {
+      "role": "model",
+      "text": "A12"
+    },
+    {
+      "role": "user",
+      "text": "Q13"
+    },
+    {
+      "role": "model",
+      "text": "A13"
+    },
+    {
+      "role": "user",
+      "text": "Q14"
+    },
+    {
+      "role": "model",
+      "text": "A14"
+    },
+    {
+      "role": "user",
+      "text": "Q15"
+    },
+    {
+      "role": "model",
+      "text": "A15"
+    },
+    {
+      "role": "user",
+      "text": "Q16"
+    },
+    {
+      "role": "model",
+      "text": "A16"
+    },
+    {
+      "role": "user",
+      "text": "Q17"
+    },
+    {
+      "role": "model",
+      "text": "A17"
+    },
+    {
+      "role": "user",
+      "text": "Q18"
+    },
+    {
+      "role": "model",
+      "text": "A18"
+    },
+    {
+      "role": "user",
+      "text": "Q19"
+    },
+    {
+      "role": "model",
+      "text": "A19"
+    }
+  ],
+  "token_usage": {
+    "total_prompt_tokens": 0,
+    "total_candidates_tokens": 0,
+    "total_tokens": 800000
+  }
+}

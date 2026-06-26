@@ -1,0 +1,172 @@
+{
+  "timestamp": "20260621T131044",
+  "reason": "CONTEXT_ROTATION",
+  "state": "ROTATION",
+  "conversation_history": [
+    {
+      "role": "user",
+      "text": "query 0"
+    },
+    {
+      "role": "model",
+      "text": "response 0 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 1"
+    },
+    {
+      "role": "model",
+      "text": "response 1 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 2"
+    },
+    {
+      "role": "model",
+      "text": "response 2 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 3"
+    },
+    {
+      "role": "model",
+      "text": "response 3 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 4"
+    },
+    {
+      "role": "model",
+      "text": "response 4 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 5"
+    },
+    {
+      "role": "model",
+      "text": "response 5 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 6"
+    },
+    {
+      "role": "model",
+      "text": "response 6 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 7"
+    },
+    {
+      "role": "model",
+      "text": "response 7 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 8"
+    },
+    {
+      "role": "model",
+      "text": "response 8 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 9"
+    },
+    {
+      "role": "model",
+      "text": "response 9 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 10"
+    },
+    {
+      "role": "model",
+      "text": "response 10 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 11"
+    },
+    {
+      "role": "model",
+      "text": "response 11 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 12"
+    },
+    {
+      "role": "model",
+      "text": "response 12 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 13"
+    },
+    {
+      "role": "model",
+      "text": "response 13 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 14"
+    },
+    {
+      "role": "model",
+      "text": "response 14 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 15"
+    },
+    {
+      "role": "model",
+      "text": "response 15 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 16"
+    },
+    {
+      "role": "model",
+      "text": "response 16 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 17"
+    },
+    {
+      "role": "model",
+      "text": "response 17 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 18"
+    },
+    {
+      "role": "model",
+      "text": "response 18 with some padding words to make it a bit longer"
+    },
+    {
+      "role": "user",
+      "text": "query 19"
+    },
+    {
+      "role": "model",
+      "text": "response 19 with some padding words to make it a bit longer"
+    }
+  ],
+  "token_usage": {
+    "total_prompt_tokens": 0,
+    "total_candidates_tokens": 0,
+    "total_tokens": 900000
+  }
+}
