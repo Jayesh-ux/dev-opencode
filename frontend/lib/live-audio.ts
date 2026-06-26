@@ -3,7 +3,7 @@
 import { useStore } from "@/lib/store";
 
 const TARGET_SAMPLE_RATE = 16000;
-const BUFFER_SIZE = 4096;
+const BUFFER_SIZE = 2048;
 
 const RECONNECT_INITIAL_DELAY = 1500;
 const RECONNECT_MAX_DELAY = 10000;
